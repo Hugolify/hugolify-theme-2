@@ -1,19 +1,18 @@
-$global-spacing: 4rem
-$header-background-color: #092036
-
-// https://github.com/twbs/bootstrap/blob/v5.2.3/scss/_variables.scss
+// https://github.com/twbs/bootstrap/blob/v5.3.0/scss/_variables.scss
 
 // Color 
-$primary: #092036
-$secondary: invert($primary)
+$primary: #344648
+$secondary: #FFBB98
+$tertiary: #7D8E95
+$quaternary: #FBE0C3
 
 // Alert
 $alert-link-font-weight: normal
 
 // Border
-$border-radius: 4px
-$border-radius-sm: 4px
-$border-radius-lg: 4px
+$border-radius: 1rem
+$border-radius-sm: $border-radius
+$border-radius-lg: $border-radius
 
 // Breadcrumb
 $breadcrumb-font-size: .75rem
@@ -21,15 +20,16 @@ $breadcrumb-margin-bottom: 0
 $breadcrumb-padding-y: .625rem
 
 // Buttons
+$btn-border-radius: 2rem
 $btn-close-opacity: 1
 $btn-padding-y: .75rem
-$btn-padding-x:  1rem
+$btn-padding-x:  2rem
 
 // Font
 $font-weight-normal: 400
-$font-weight-bold: 600
-$headings-font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$headings-font-weight: $font-weight-bold
+$font-weight-bold: 700
+$headings-font-family: Jost, Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$headings-font-weight: $font-weight-normal
 $headings-margin-bottom: 1rem
 $h1-font-size: 5rem
 $h2-font-size: 3rem
@@ -45,3 +45,12 @@ $hr-margin-y: 2.8rem
 $pagination-padding-y: .5rem
 $pagination-padding-x: .75rem
 $pagination-disabled-bg: transparent
+
+
+// Hugolify
+$global-spacing: 3rem
+$header-background-color: $primary
+$header-color: white
+$hero-min-height: px2rem(550)
+$footer-background-color: $quaternary
+$footer-color: $primary

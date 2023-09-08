@@ -1,0 +1,15 @@
+.post
+    --bs-card-spacer-x: 1rem
+    --bs-card-border-radius: #{$border-radius}
+    --bs-card-inner-border-radius: #{$border-radius}
+    --bs-card-bg: #{$light}
+    --bs-card-cap-padding-x: 1rem
+    --bs-card-cap-padding-y: 1rem
+    height: 100%
+    .block-bg &
+        --bs-card-bg: #{darken($light, 3)}
+    .media
+        border-bottom-right-radius: var(--bs-card-inner-border-radius)
+        border-bottom-left-radius: var(--bs-card-inner-border-radius)
+
+

@@ -4,5 +4,3 @@ module:
       target: assets
     - source: static
       target: static
-params:
-  animation: true
