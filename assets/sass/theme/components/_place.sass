@@ -1,0 +1,9 @@
+.place
+    --bs-card-border-radius: #{$border-radius}
+    --bs-card-inner-border-radius: #{$border-radius}
+    --bs-card-bg: #{$light}
+    .block-bg &
+        --bs-card-bg: #{darken($light, 3)}
+    .media
+        border-bottom-left-radius: var(--bs-card-inner-border-radius)
+        border-bottom-right-radius: var(--bs-card-inner-border-radius)

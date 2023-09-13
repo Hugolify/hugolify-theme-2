@@ -8,6 +8,22 @@
     height: 100%
     .block-bg &
         --bs-card-bg: #{darken($light, 3)}
+    .content
+        display: flex
+        flex-direction: column
     .media
         border-bottom-right-radius: var(--bs-card-inner-border-radius)
         border-bottom-left-radius: var(--bs-card-inner-border-radius)
+    .press
+        span
+            background-color: darken($light, 3)
+    .publications_concerned
+        margin-top: auto
+        &::before
+            background-color: $tertiary
+            content: ''
+            display: block
+            height: 1px
+            margin-bottom: $spacer
+            margin-top: $spacer
+            width: 2rem
