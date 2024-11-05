@@ -24,7 +24,7 @@ https://theme-2--hugolify-demo.netlify.app/
 
 ## Documentation
 
-https://github.com/hugolify/hugolify-template/wiki
+https://www.hugolify.io/docs/
 
 ## Licensing
 
